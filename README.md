@@ -16,9 +16,9 @@
 
 - RegexTokenizer: tách văn bản thành tokens dựa trên khoảng trắng và dấu câu.
 
-- StopWordsRemover: loại bỏ stopwords (tiếng Anh mặc định).
+- StopWordsRemover: loại bỏ stopwords.
 
-- HashingTF: chuyển tokens thành vector tần suất (Term Frequency).
+- HashingTF: chuyển tokens thành vector tần suất.
 
 - IDF: tính toán trọng số Inverse Document Frequency và tạo TF-IDF vector.
 
@@ -39,9 +39,9 @@
 
 ## Yêu cầu cài đặt:
 
-- Apache Spark (>= 3.0)
+- JDK
 
-- Scala (>= 2.12) hoặc SBT để build project
+- SBT để build project
 
 ## Chạy ứng dụng:
 ```
@@ -70,7 +70,7 @@ Original Text: I thought I was going to finish the 3rd season of the Wire tonigh
 But there was a commentary on ep...
 TF-IDF Vector: (20000,[749,3389,3401,3491,5038,6487,6578,7412,8273,10055,12309,12358,17464,18431,18458,19878],[5.116995310087166,4.51085950651685,10.59863373376224,5.29931686688112,2.0489423749535485,3.1245651453969594,6.949535149660148,4.200704578213011,2.1465808445174646,2.781620394270129,3.730700948967275,6.204184579089802,3.96431580014878,3.147554663621658,3.443018876515494,3.5075573976530654])
 ```
-- Điều này cho thấy mỗi document được biểu diễn bằng vector số học, dùng cho các bài toán phân loại văn bản, clustering, tìm kiếm, v.v.
+- Điều này cho thấy mỗi document được biểu diễn bằng vector số học.
 
 # 4. Khó khăn và giải pháp
 
