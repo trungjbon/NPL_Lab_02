@@ -4,8 +4,6 @@
 
 - Dùng SparkSession.builder với chế độ local[*] để chạy Spark trên máy cá nhân.
 
-- Mở Spark UI tại http://localhost:4040 để theo dõi tiến trình.
-
 ## Đọc dữ liệu C4 dataset
 
 - File dữ liệu ở dạng JSON nén .gz.
