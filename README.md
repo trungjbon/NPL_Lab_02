@@ -73,6 +73,10 @@ sbt "run 10 0 5"
 ```
 - Các biến đầu vào có thể thay đổi.
 
+## Kết quả chạy
+- Kết quả chương trình lưu tại "Lab_02\results\lab17_pipeline_output.txt"
+- Log chương trình lưu tại "Lab_02\log\lab17_metrics.log"
+
 # 3. Giải thích kết quả
 
 - Schema dữ liệu: có cột text chứa văn bản.
